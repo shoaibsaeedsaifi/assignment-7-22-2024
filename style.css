@@ -20,11 +20,16 @@ nav{
     justify-content: space-evenly;
     position: sticky;
     top: 0;
+    background-color: grey;
+    padding-bottom: 10px;
+    padding-top: 10px;
 
 }
 nav a {
-    color: blue;
+    color: rgb(25, 25, 129);
     text-decoration: none;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
  /*home*/
@@ -39,3 +44,78 @@ nav a {
     width: 500px;
     margin-top: 20px;
  }
+ .home h2{
+    font-size: 40px;
+    font-weight: 800px;
+
+ }
+ .home input{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+ }
+ /*section*/
+ section{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+ }
+ section p{
+    font-family: cursive;
+ }
+ /*for mobile apps*/
+
+
+ @media(max-width:420px){
+    figure{
+        margin-top: -15px;
+        
+    }
+    figure img{
+        width: 100px;
+    }
+
+/*homepage*/
+
+.home{
+   margin-right: 10px;
+   
+}
+.home div{
+    padding: 7px;
+    padding-left: 40px;
+
+}
+.home div{
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+.home h2{font-size: 10px;
+
+ }
+ .home input {
+    width: 100px;
+    height: 20px;
+    margin-top: 7px;
+ }
+ /*section*/
+  section {
+    font-size: medium;
+
+  }
+  section p{
+    font-size: smaller;
+    padding-top: 10px;
+
+  }
+}
+#images{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    height: 20px;
+}
