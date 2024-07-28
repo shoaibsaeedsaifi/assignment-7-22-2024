@@ -23,6 +23,7 @@ nav{
     background-color: grey;
     padding-bottom: 10px;
     padding-top: 10px;
+    z-index: 12;
 
 }
 nav a {
